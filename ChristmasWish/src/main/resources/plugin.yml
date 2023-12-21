@@ -1,0 +1,10 @@
+name: ChristmasWish
+version: '${project.version}'
+main: me.hakkulinen.christmaswish.ChristmasWish
+api-version: 1.20
+authors: [ hakkulinen ]
+description: A simple Christmas wish plugin, wish.use is the perm
+commands:
+  wish:
+    description: Collects and stores player wishes
+    usage: Use it as /wish <message>, to clear your message, use /wish clear
